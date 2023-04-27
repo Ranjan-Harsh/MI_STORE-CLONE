@@ -1,0 +1,18 @@
+.tmp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rrr{
+    padding: 0.8vmax;
+}
+
+.rrr > a > img{
+    transition: all 0.6s;
+}
+
+.rrr > a > img:hover{
+    box-shadow:  8px 5px 8px rgb(178, 176, 176);
+}

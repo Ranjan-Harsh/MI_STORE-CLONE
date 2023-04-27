@@ -1,0 +1,26 @@
+.videoouter{
+    margin-top: 2vmax;
+    padding: 1vmax;
+    /* display: flex; */
+}
+.videoouter > a:hover{
+    background-color: aliceblue;
+}
+.videoouter > a > img{
+    width: 100%;
+}
+.videoouter > div{
+    text-align: center;
+    position: relative;
+    bottom: 180px;
+    color:white;
+}
+
+.vsvg:hover{
+    background-color: rgb(217, 226, 179);
+    margin-left: 12vmax;
+    margin-right: 12vmax;
+    border-radius: 24px;
+    cursor: pointer;
+    /* fill: white; */
+}

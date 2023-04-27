@@ -1,0 +1,20 @@
+.hot{
+    padding: 2vmax;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+}
+
+.hotpart{
+    color: slategray;
+    padding: 0.5vmax 0;
+}
+
+.hotpart:hover{
+    text-decoration: none;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}

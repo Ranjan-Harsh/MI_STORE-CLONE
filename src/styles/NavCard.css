@@ -1,0 +1,20 @@
+.Navcard{
+    width: 10vw;
+    text-align: center;
+    margin: 2vmax;
+}
+.Navcard > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.upperNa{
+    margin-bottom: 2px;
+}
+.bottomNa{
+    margin-bottom: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: orangered;
+}
+.Navcard > img{
+    width: 10vmax;
+}

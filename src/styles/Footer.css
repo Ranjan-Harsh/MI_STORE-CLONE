@@ -1,0 +1,164 @@
+.PreFooter1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 14px;
+    color: #424242;
+    background-color: rgb(232, 231, 230);
+    margin-top: 5vmax;
+    fill: #656262;
+}
+.PreFooter1:hover{
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(151, 143, 140);
+    fill: rgb(151, 143, 140);
+}
+.samepre1{
+    display: flex;
+}
+.samepre1 > div > p{
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.samepre1 > div{
+    padding: 2vmax;
+}
+
+
+.PreFooter2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120px;
+    background-color: #cfe1e5;
+    color: #656262;
+}
+
+.PreFooter2 > div > div > p{
+    font-size: smaller;
+    margin-top: 0px;
+}
+.PreFooter2 > div > div > h5{
+    margin-bottom: 0px;
+}
+.PreFooter2 > div > div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.iconss{
+    display: flex;
+    flex-direction: row;
+}
+
+.iconss > div{
+    width: 20px;
+    height: 20px;
+    fill: #656262;
+}
+
+.iconss > div:hover{
+    fill: #252222;
+}
+
+
+.PreFooter2 > div > div > input{
+    border: none;
+    background: #f3f3f3;
+    padding: 4px;
+    
+    width: 250px;
+    font-size: 14px;
+}
+
+.Pll{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.Prr{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.iconss > div{
+    margin-left: 14px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+.FinalFooter{
+    display: flex;
+    flex-direction: row;
+    /* border: 3px solid black; */
+    background-color: rgb(42, 44, 47);
+    color: beige;
+}
+.FinalFooter > div{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    /* border: 3px solid black; */
+    padding-bottom: 50px;
+}
+.FinalFooter > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    align-content: flex-start;
+}
+.FinalFooter > div > div > a{
+    padding: 4px;
+    color: rgb(211, 211, 201);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.FinalFooter > div > div > a:hover{
+    text-decoration: none;
+}
+.FFr{
+    margin-left: 20px;
+}
+.FFl{
+    margin-left: 75px;
+}
+.FinalFooter > div > p{
+    padding-left: 4px;
+}
+.kkkk{
+    
+    font-size: smaller;
+    margin-top: 12px;
+}
+
+.FFRRl{
+    /* border: 3px solid orangered; */
+    
+    margin-left: 40px;
+    width: 13%;
+}
+.FFRRl > button{
+    background-color: rgb(42, 44, 47);
+    border:1.5px solid rgb(211, 211, 201);
+    color: rgb(211, 211, 201);
+    padding: 2px;
+    font-size: small;
+    transition: 0.5s;
+}
+.FFRRl > button:hover{
+    background-color: white;
+    color: #424242;
+}
+.lastfoot{
+    border-top: 1px solid rgb(92, 92, 92);
+    background-color: rgb(42, 44, 47);
+    padding-top: 30px;
+    color: rgb(211, 211, 201);
+    padding-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

@@ -1,0 +1,13 @@
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax auto;
+    padding-left: 1vmax;
+}
+
+.righ{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}

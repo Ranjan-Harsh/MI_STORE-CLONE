@@ -1,0 +1,67 @@
+.prenav{
+    width: 100%;
+    height: 40px;
+    background-color: #141212;
+    font-size: 14px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left{
+    /* display: inline-block; */
+    float: left;
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    /* display: inline-block; */
+}
+
+span{
+    color: white;
+}
+
+    
+.right{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    padding-bottom: 0px;
+    /* display: inline-block; */
+    display: flex;
+
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* a:visited {
+    color: rgb(191, 186, 186);
+} */
+.left > a:visited{
+    color: rgb(182, 185, 182);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.left > a:hover {
+    color: white;
+}
+  
+.right > a:visited{
+    color: rgb(182, 185, 182);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.right > a:hover {
+    color: white;
+}
+  
+.svg{
+    
+    fill :rgb(191, 186, 186);
+}
